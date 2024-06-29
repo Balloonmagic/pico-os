@@ -2,7 +2,7 @@
 
 uses micropython.
 
-a very basic cmd line interface alows you to do more than one task on a pico with commands i encourage you all to develop your own pico os scripts and them to your pico.
+a very basic cmd line interface alows you to do more than one task on a pico with commands i encourage you all to develop your own pico os scripts and add them to your pico.
 
 
 commands:
