@@ -20,21 +20,14 @@ ti.sleep(1)
 
 led.toggle()
 ti.sleep(2)
-start_ready=1
 
-#checking startup
 
-if start_ready == 1:
-    print("startup succsesfull hello world")
-    
-    
-else:
-    print("startup unsucseful shutting down in 5 seconds, exit code 1")
-    ti.sleep(5)
-    sys.exit(1)
+
+
+
     
 #cmd while loop
-print("/help for help and /exit to exit")
+print("/help for list of comands")
 while start_ready == 1:
     cmd=input("OS.py:")
 
@@ -48,10 +41,12 @@ while start_ready == 1:
         print("exiting")
         sys.exit(0)
        
+       
     elif cmd == "/blink":
         led.toggle()
         ti.sleep(1)
         led.toggle()
+        
         
     elif cmd == "/toggle":
         led.toggle()
